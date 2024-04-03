@@ -1,4 +1,13 @@
 .datax {
     // background: #560418;
     // color: white;
+    padding: 0;
+    p {
+        color: white;
+    }
+
+    .bg-redx {
+        background: linear-gradient(to bottom, #560418, #830000);
+        padding: 32px 0;
+    }
 }
