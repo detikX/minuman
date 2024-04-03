@@ -4,7 +4,7 @@
 
     .coca {
         position: absolute;
-        bottom: 5%;
+        top: -25%;
         // height: 250px;
         right: 5%;
         z-index: 2;
@@ -20,8 +20,8 @@
             background: radial-gradient(circle, black, transparent);
         }
         @media screen and (max-width: 768px) {
-            right: -12%;
-            bottom: 20%;
+            right: -16%;
+            top: -20%;
             height: 280px;
         }
         img {
@@ -37,18 +37,30 @@
 }
 
 .line-bottom {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     // background: #13386d;
     background: #560418;
     // background: linear-gradient(to top, #560418, #df2929);
-    height: 300px;
+    // height: 300px;
     width: 100%;
     z-index: 1;
+    .wrap-detikx {
+        @media screen and (max-width: 768px) {
+            width: 80%;
+            margin: auto;
+        }
+    }
     @media screen and (max-width: 380px) {
-        height: 300px;
+        // height: 300px;
+        // bottom: -20vh !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        // height: 300px;
+        // bottom: -20vh;
     }
     &::after {
         content: "";
@@ -61,8 +73,12 @@
         position: absolute;
         left: 50%;
     }
+    p {
+        color: #eee;
+        margin-bottom: 0;
+    }
     ol {
-        padding: 16px;
+        padding: 8px 16px;
         li {
             color: #eee;
         }
