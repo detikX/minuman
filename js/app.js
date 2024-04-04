@@ -32,9 +32,9 @@ new Chart(ctx, {
         ],
         datasets: [{
             label: 'Persen (%)',
-            data: [32.4, 27.1, 14.4, 6.4],
+            data: [32.4, 27.1, 14.4, 6.4, 5.8, 3.8, 3.6, 3.4, 3.3],
             borderWidth: 2,
-            borderRadius: 5,
+            borderRadius: 2,
             backgroundColor: [
                 'rgba(255, 205, 86,.6)',
                 'rgba(54, 162, 235,.6)',
