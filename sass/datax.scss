@@ -63,3 +63,13 @@
         }
     }
 }
+
+// canvas {
+//     margin: 16px auto 32px;
+// }
+
+.chartjs {
+    @media screen and (max-width: 768px) {
+        height: 300px;
+    }
+}
