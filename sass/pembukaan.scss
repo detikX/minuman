@@ -7,6 +7,7 @@
         top: -25%;
         // height: 250px;
         right: 5%;
+        width: 170px;
         z-index: 2;
         &::before {
             content: "";
@@ -20,9 +21,9 @@
             background: radial-gradient(circle, black, transparent);
         }
         @media screen and (max-width: 768px) {
-            right: -16%;
-            top: -20%;
-            height: 280px;
+            right: -24%;
+            top: -10%;
+            height: 230px;
         }
         img {
             width: 100%;
