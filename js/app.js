@@ -20,26 +20,35 @@ new Chart(ctx, {
     type: 'bar',
     data: {
         labels: [
-            'Warung',
-            'Minimarket',
-            'Supermarket',
-            'Fasilitas Umum'
+            'Rasa Penasaran',
+            'Enak Rasanya',
+            'Aspek Harga',
+            'Influencer',
+            'Anggota Rumah Tangga',
+            'Iklan',
+            'Teman',
+            'Media Sosial',
+            'Tetangga'
         ],
         datasets: [{
             label: 'Persen (%)',
-            data: [38, 28, 17, 17],
+            data: [32.4, 27.1, 14.4, 6.4],
             borderWidth: 2,
             borderRadius: 5,
             backgroundColor: [
                 'rgba(255, 205, 86,.6)',
                 'rgba(54, 162, 235,.6)',
                 'rgba(255, 99, 132,.6)',
+                'rgba(255, 205, 86,.6)',
+                'rgba(54, 162, 235,.6)',
                 'rgba(255, 99, 132,.6)'
             ],
             borderColor: [
                 'rgba(255, 205, 86,1)',
                 'rgba(54, 162, 235,1)',
                 'rgba(255, 99, 132,1)',
+                'rgba(255, 205, 86,1)',
+                'rgba(54, 162, 235,1)',
                 'rgba(255, 99, 132,1)'
             ],
             hoverOffset: 4
@@ -48,11 +57,11 @@ new Chart(ctx, {
     options: {
         maintainAspectRatio: false,
         // responsive: true,
-        // indexAxis: 'y',
+        indexAxis: 'y',
         plugins: {
             title: {
                 display: true,
-                text: "MBDK rata-rata diperoleh via",
+                text: "Mengapa orang suka konsumsi MBDK?",
                 color: "black",
                 font: {
                     family: "'Rubik'", // Your font family

@@ -1,0 +1,8 @@
+.kopi {
+    h3 {
+        font-size: 1.6rem !important;
+        @media screen and (max-width: 768px) {
+            font-size: 1.4rem !important;
+        }
+    }
+}

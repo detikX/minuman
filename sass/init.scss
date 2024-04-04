@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Ubuntu&family=Rubik&family=Lato&family=Libre+Franklin:wght@400;900&family=Roboto+Slab&family=Titan+One&display=swap");
 
 $colorred: #560418;
+
 .preload {
     // font-family: "Noto Serif JP", sans-serif;
     font-family: "Roboto Slab";
@@ -17,10 +18,10 @@ $colorred: #560418;
         text-align: left;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 16px;
         @media screen and (max-width: 768px) {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
 }
