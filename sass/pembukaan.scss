@@ -42,8 +42,8 @@
     left: 0;
     right: 0;
     // background: #13386d;
-    background: #560418;
-    // background: linear-gradient(to top, #560418, #df2929);
+    background: $colorred;
+    // background: linear-gradient(to top, $colorred, #df2929);
     // height: 300px;
     width: 100%;
     z-index: 1;
@@ -95,6 +95,6 @@
 }
 
 .bg-redx {
-    background: linear-gradient(to bottom, #560418, #830000);
+    background: linear-gradient(to bottom, $colorred, #830000);
     padding: 32px 0;
 }

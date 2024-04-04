@@ -3,11 +3,50 @@
     // color: white;
     padding: 0;
     p {
-        color: white;
+        // color: white;
     }
 
     .bg-redx {
         background: linear-gradient(to bottom, #560418, #830000);
         padding: 32px 0;
+    }
+
+    .infox {
+        display: block;
+        margin: 0 auto;
+        &__data {
+            display: inline-block;
+            width: 45%;
+        }
+        .names {
+            background: #d3652a;
+            color: white;
+            padding: 4px 16px;
+            width: fit-content;
+            margin: 0 auto;
+            // border-radius: 16px;
+        }
+        .arrow {
+            width: auto;
+            height: 200px;
+            margin: 0 auto;
+            vertical-align: bottom;
+            &.high {
+                height: 230px !important;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        h3 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            &::after {
+                content: "%";
+                font-size: 1.5rem;
+            }
+        }
     }
 }

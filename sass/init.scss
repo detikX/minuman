@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Ubuntu&family=Rubik&family=Lato&family=Libre+Franklin:wght@400;900&family=Titan+One&display=swap");
 
+$colorred: #560418;
 .preload {
     // font-family: "Noto Serif JP", sans-serif;
     // font-family: "Roboto Slab";
@@ -106,7 +107,7 @@ section {
     position: relative;
 
     h3 {
-        color: #cb0024;
+        color: $colorred;
     }
 
     .bg-block {
@@ -229,7 +230,7 @@ body {
     height: 100%;
     // font-family: 'Outfit';
     // overflow-x: hidden;
-    font-family: "Poppins" !important;
+    font-family: "Rubik" !important;
     @media screen and (max-width: 768px) {
         // overflow-x: hidden;
     }
@@ -273,7 +274,8 @@ h5 {
 .hello {
     width: 100%;
     height: auto;
-    // background: linear-gradient(to top, rgba(white, 0.5), rgba(white, 0.2));
+    margin-top: 8px;
+    // background: linear-gradient(to top, rgba($colorred, 0.5), rgba($colorred, 0.2));
     border-radius: 16px;
     margin-bottom: 16px;
     .img {
@@ -282,7 +284,7 @@ h5 {
         }
     }
     .content {
-        // padding: 16px;frf
+        padding: 16px;
     }
 }
 
