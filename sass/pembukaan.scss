@@ -14,6 +14,21 @@
     right: 5%;
     width: 170px;
     z-index: 2;
+    &.ylki {
+        position: absolute;
+        top: -30%;
+        z-index: 2;
+
+        @media screen and (max-width: 768px) {
+            right: 0%;
+            width: 80px;
+        }
+        &::before {
+            @media screen and (max-width: 768px) {
+                bottom: 32px;
+            }
+        }
+    }
     &.minum {
         top: initial;
         bottom: 0;
