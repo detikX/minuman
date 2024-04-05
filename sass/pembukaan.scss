@@ -102,11 +102,13 @@
 }
 
 .question {
-    text-align: center;
+    // text-align: center;
     font-size: 2rem;
-    position: relative;
+    line-height: 2rem;
+    // position: relative;
     @media screen and (max-width: 768px) {
         font-size: 1.5rem;
+        line-height: 1.8rem;
     }
 }
 

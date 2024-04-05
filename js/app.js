@@ -24,7 +24,7 @@ new Chart(ctx, {
             'Enak Rasanya',
             'Aspek Harga',
             'Influencer',
-            'Anggota Rumah Tangga',
+            'Rumah Tangga',
             'Iklan',
             'Teman',
             'Media Sosial',
