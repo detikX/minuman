@@ -17,7 +17,7 @@ $(document).ready(function () {
 const ctx = document.getElementById('myChart');
 
 $(".datax .questionx p,.datax .questionx .name, .datax .questionx li, .datax .questionx h3, .datax .questionx small, .datax .questionx canvas").attr({ "data-wow-delay": "0.2s" }).addClass('wow animate__animated animate__fadeIn')
-$(".datax .questionx img").attr({ "data-wow-delay": "0.5s" }).addClass('wow animate__animated animate__zoomIn')
+$(".datax .questionx img").attr({ "data-wow-delay": "0.2s" }).addClass('wow animate__animated animate__zoomIn')
 
 
 
