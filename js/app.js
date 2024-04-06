@@ -4,17 +4,19 @@ $(document).ready(function () {
 
 
 
-    // setTimeout(() => {
-    //     $(".preloader").fadeOut(1000);
-    //     $(".preloader").remove();
-    //     // $("html, body").animate({ scrollTop: 0 }, 10);
-    //     window.scrollTo(0, 0);
+    setTimeout(() => {
+        $(".preloader").fadeOut(1000);
+        $(".preloader").remove();
+        // $("html, body").animate({ scrollTop: 0 }, 10);
+        window.scrollTo(0, 0);
 
-    // }, 2000);
+    }, 2000);
 
     new WOW().init();
 });
 const ctx = document.getElementById('myChart');
+
+
 
 new Chart(ctx, {
     type: 'bar',

@@ -35,14 +35,16 @@
     @keyframes MoveUpDown {
         0%,
         100% {
-            bottom: 0;
+            transform: rotate(-5deg);
         }
         50% {
-            bottom: 100px;
+            transform: rotate(5deg);
         }
     }
     &.minum {
         top: initial;
+        animation: MoveUpDown 2s linear infinite;
+        transform: rotate(-5deg);
         bottom: 0;
         width: 120px;
         // &::before {

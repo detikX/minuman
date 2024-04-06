@@ -1,5 +1,6 @@
 .banner {
     // background: #560418;
+    min-height: 80vh;
     @media screen and (max-width: 768px) {
         min-height: 70vh;
     }
@@ -50,7 +51,7 @@
         left: 50%;
         z-index: 3;
         transform: translate(-50%, 0);
-        width: 35%;
+        width: 30%;
         // position: absolute;
         height: auto;
         // z-index: 3;
