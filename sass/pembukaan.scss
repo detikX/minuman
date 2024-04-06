@@ -32,6 +32,15 @@
             }
         }
     }
+    @keyframes MoveUpDown {
+        0%,
+        100% {
+            bottom: 0;
+        }
+        50% {
+            bottom: 100px;
+        }
+    }
     &.minum {
         top: initial;
         bottom: 0;
