@@ -26,7 +26,7 @@ $colorred: #560418;
     }
 }
 .labels {
-    background: red;
+    background: $colorred;
     padding: 4px 8px;
     color: white;
     text-transform: uppercase;
